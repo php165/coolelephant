@@ -1,0 +1,26 @@
+{
+    "name": "coolelephant/dingtalk-service",
+    "description": "this is cool elephant project",
+    "type": "project",
+    "require": {
+        "php": "7.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thinkPad-myj",
+            "email": "815081410@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "coolelephant\\dingtalk\\": "/dingtalk/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "coolelephant\\dingtalk\\test\\": "/dingtalk/test/"
+        }
+    },
+    "minimum-stability": "dev"
+}
